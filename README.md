@@ -14,24 +14,28 @@ A thought experiment that builds on recent advancements in sequence modeling, re
 
 ### Titans: Learning New Context On-the-Fly
 
-Core Idea: Titans introduces a novel neural long-term memory module that mimics the human brain's separation of short-term and long-term memory. Unlike fixed-size vectors or matrices in RNNs, it uses a deep multi-layer perceptron (MLP) to summarize and retain high volumes of information.
+**Core Idea:** Titans introduces a novel neural long-term memory module that mimics the human brain's separation of short-term and long-term memory. Unlike fixed-size vectors or matrices in RNNs, it uses a deep multi-layer perceptron (MLP) to summarize and retain high volumes of information.
+
 Key Mechanism: The "surprise metric" (gradient-based error signal) detects unexpected inputs, triggering selective updates to permanent memory. This prioritizes anomalous or important events (e.g., a sudden "banana peel" in a financial report) while forgetting routine data via adaptive weight decay.
+
 Architecture (e.g., MAC Variant): Compresses past data into a summary passed to attention, allowing decisions on what to retain. It incorporates momentum for coherent updates and maintains linear scaling for efficiency.
+
 Benefits: Handles sequences up to 2M+ tokens, outperforming models like Mamba-2 and GPT-4 on long-context recall (e.g., BABILong benchmark) with faster inference.
 
 ### MIRAS: A Unified Framework for Sequence Modeling
 
-Core Idea: MIRAS views sequence models as associative memory modules optimized via gradient-based methods, transcending mean squared error (MSE) for more robust objectives.
+**Core Idea:** MIRAS views sequence models as associative memory modules optimized via gradient-based methods, transcending mean squared error (MSE) for more robust objectives.
+
 Four Design Pillars:
-Memory Architecture: Structures like vectors, matrices, or deep MLPs (as in Titans).
-Attentional Bias: Internal learning objective that prioritizes what the model optimizes.
-Retention Gate: Regularization (e.g., forgetting mechanisms) to balance new learning with past knowledge retention.
-Memory Algorithm: Optimization process for updates.
+- Memory Architecture: Structures like vectors, matrices, or deep MLPs (as in Titans).
+- Attentional Bias: Internal learning objective that prioritizes what the model optimizes.
+- Retention Gate: Regularization (e.g., forgetting mechanisms) to balance new learning with past knowledge retention.
+- Memory Algorithm: Optimization process for updates.
 
 Variants:
-YAAD: Uses Huber loss for outlier resistance, gentle on major errors.
-MONETA: Applies generalized norms for stricter penalties, investigating attention vs. forgetting.
-MEMORA: Employs KL-divergence for probabilistic stability in updates.
+- YAAD: Uses Huber loss for outlier resistance, gentle on major errors.
+- MONETA: Applies generalized norms for stricter penalties, investigating attention vs. forgetting.
+- MEMORA: Employs KL-divergence for probabilistic stability in updates.
 
 Benefits: Outperforms baselines on perplexity, accuracy (e.g., HellaSwag, PIQA), and noisy tasks. Enables non-Euclidean objectives for richer designs, validated on DNA modeling and time-series forecasting.
 
