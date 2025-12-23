@@ -130,7 +130,7 @@ MIT License - Take it, remix it, forget about it. Whatever works.
 
 ## One Last Thing
 
-If you read this and thought "this person has no idea what they're doing"—you're probably right! I'm not a researcher. I'm just someone who reads papers at 10pm and goes "hmm, what if we mashed these ideas together?"
+If you read this and thought "this person has no idea what they're doing"—you're probably right! I'm not an expert or a traditional researcher. I'm just someone who reads papers at 10pm (becuase kids are finally asleep and apparently my brain loves research papers than netflix, go figure) and goes "hmm, what if we mashed these ideas together?"
 
 If that bothers you, this repo isn't for you.  
 If that excites you, welcome to the thought lab. ☕🐬
