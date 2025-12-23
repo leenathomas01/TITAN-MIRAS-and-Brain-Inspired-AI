@@ -134,3 +134,12 @@ If you read this and thought "this person has no idea what they're doing"—you'
 
 If that bothers you, this repo isn't for you.  
 If that excites you, welcome to the thought lab. ☕🐬
+
+---
+## 📚 References
+- Original Blog Post: [Titans + MIRAS: Helping AI have long-term memory](https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/)
+- Titans Paper: [arXiv:2501.00663](https://arxiv.org/abs/2501.00663)
+- MIRAS Paper: [arXiv:2504.13173](https://arxiv.org/abs/2504.13173)
+---
+
+_Note: This repository contains experimental thought processes, toy PyTorch implementations, and research notes. It is not a production-ready framework._
