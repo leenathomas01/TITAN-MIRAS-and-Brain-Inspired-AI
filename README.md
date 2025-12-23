@@ -1,3 +1,5 @@
+Note: This repo is work in progress and will be updated sporadically during my downtime.
+
 ### TITAN, MIRAS and Brain Inspired AI
 A thought experiment that builds on recent advancements in sequence modeling, remixing them with iterative thought experiments involving self-reflective loops and agent-based hypothesis evolution.
 
