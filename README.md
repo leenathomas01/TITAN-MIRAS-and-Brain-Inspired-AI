@@ -1,6 +1,6 @@
 Note: This repo is work in progress and will be updated sporadically during my downtime.
 
-# TITAN, MIRAS and Brain Inspired AI
+# TITAN, MIRAS and Dolphin Twin
 A thought experiment and research prototype exploring emergent AI cognition. It is not merely a wrapper for existing models, but **a distinct cognitive architecture** designed to orchestrate short-term responsiveness and long-term reflection.
 By integrating Google Research's Titans (neural memory) and MIRAS (sequence optimization) as subsystems, this thought experiment attempts to replicate the "Fast vs. Slow" thinking found in biological brains, enabling AI that learns, forgets, and evolves beliefs on the fly.
 
