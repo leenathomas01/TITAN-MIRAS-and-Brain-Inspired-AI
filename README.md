@@ -68,3 +68,7 @@ Agent Personas (Mapped to MIRAS Variants):
 
 ## TLDR; version
 This thought experiment pushes the boundaries of AI memory and cognition by blending Titans/MIRAS' efficient, surprise-based updates with Dolphin Twin's brain-inspired agents. It opens avenues for scalable, emergent systems that learn like humans—selectively and continuously. Next steps include prototyping the merge policy and exploring integrations with tools.
+
+---
+
+_Note: This repository contains experimental thought processes, toy PyTorch implementations, and research notes. It is not a production-ready framework._
