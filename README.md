@@ -70,7 +70,7 @@ Most AI models either:
 
 ```bash
 # Clone this repo
-git clone https://github.com/leenathomas01/TITAN-MIRAS-and-Dolphin-Twin.git
+git clone https://github.com/leenathomas01/TITANS-MIRAS-and-Dolphin-Twin.git
 cd TITAN-MIRAS-and-Dolphin-Twin
 
 # Install dependencies (just PyTorch and NumPy)
