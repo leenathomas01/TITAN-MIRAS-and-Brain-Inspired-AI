@@ -1,4 +1,4 @@
-# TITAN, MIRAS and Dolphin Twin: Thought Experiments on Surprise-Gated Memory
+# TITANS, MIRAS and Dolphin Twin: Thought Experiments on Surprise-Gated Memory
 
 > **Status:** Personal thought experiment • Not production code • Intentionally incomplete
 
